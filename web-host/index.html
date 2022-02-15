@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
     <title>Web host</title>
-</head>
-<body>
-    <iframe src="https://lubobill1990.github.io//index.html" frameborder="0" allow="camera; display-capture;"></iframe>
-</body>
+  </head>
+  <body>
+    <label for="link">Iframe url</label>
+    <input
+      type="url"
+      id="link"
+      value="https://lubobill1990.github.io/iframe-getMediaDisplay-getUserDisplay/iframe/index.html"
+    />
+    <label for="allow">Allow attribute</label>
+    <input type="text" id="allow" value="camera; display-capture;" />
+    <button id="load-iframe">Load iframe</button>
+
+    <div id="iframe-wrap"></div>
+    <script src="./index.js"></script>
+  </body>
 </html>

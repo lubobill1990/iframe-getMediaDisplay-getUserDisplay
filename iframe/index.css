@@ -1,0 +1,11 @@
+#video-wrapper {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+video {
+  width: 48%;
+  background-color: #000;
+  height: 480px;
+}
